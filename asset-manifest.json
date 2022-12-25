@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/puzzle-app/static/css/main.381e59f5.css",
+    "main.js": "/puzzle-app/static/js/main.be5d514b.js",
+    "static/js/879.0a3e979d.chunk.js": "/puzzle-app/static/js/879.0a3e979d.chunk.js",
+    "index.html": "/puzzle-app/index.html",
+    "main.381e59f5.css.map": "/puzzle-app/static/css/main.381e59f5.css.map",
+    "main.be5d514b.js.map": "/puzzle-app/static/js/main.be5d514b.js.map",
+    "879.0a3e979d.chunk.js.map": "/puzzle-app/static/js/879.0a3e979d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.381e59f5.css",
+    "static/js/main.be5d514b.js"
+  ]
+}
