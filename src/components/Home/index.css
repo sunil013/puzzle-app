@@ -1,0 +1,119 @@
+.Home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 60px;
+  /* background-color: #000; */
+}
+.puzzle-heading {
+  font-family: "Poppins";
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.puzzle-box {
+  width: 80%;
+  max-width: 400px;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.puzzle-item {
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  color: blue;
+  padding: 15px 0px;
+  /* border: 1px solid #000; */
+  border-radius: 5px;
+  height: 50px;
+  margin-bottom: 5px;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+.empty-box {
+  background-color: black;
+  color: aliceblue;
+  transition: 0.5s;
+  border-radius: 0px;
+}
+.puzzle-item:active {
+  transform: scale(1.04);
+}
+.restart-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  background-color: #ee4b2b;
+  border: none;
+  width: 120px;
+  height: 35px;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  font-weight: 500;
+}
+.logout-button {
+  position: absolute;
+  /* z-index: 1; */
+  width: 90px;
+  height: 30px;
+  border: 1px solid #29b6f6;
+  background-color: transparent;
+  top: 20px;
+  left: auto;
+  right: 10px;
+  cursor: pointer;
+  outline: none;
+  color: #29b6f6;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.logout-button:hover {
+  background-color: #29b6f6;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .logout-button {
+    top: 30px;
+    right: 30px;
+  }
+}
+.reset-result-container {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  justify-content: space-between;
+  width: 70%;
+  max-width: 300px;
+}
+.result-text {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+}
+.result-image {
+  width: 160px;
+  height: 160px;
+}
